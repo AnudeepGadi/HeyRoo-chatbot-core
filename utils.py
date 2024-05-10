@@ -55,6 +55,3 @@ def save_to_vector_store(collection:Collection,chunk:Document):
         embeddings= embedding,
         ids=[str(collection.count()+1)]
     )
-
-def delete_embeddings(path:str):
-    col
